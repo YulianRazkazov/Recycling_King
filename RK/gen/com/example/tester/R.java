@@ -1638,9 +1638,10 @@ containing a value of this type.
         public static final int ic_launcher=0x7f020035;
         public static final int logo2=0x7f020036;
         public static final int menu=0x7f020037;
-        public static final int rk=0x7f020038;
-        public static final int startericon=0x7f020039;
-        public static final int tester=0x7f02003a;
+        public static final int metal=0x7f020038;
+        public static final int rk=0x7f020039;
+        public static final int startericon=0x7f02003a;
+        public static final int tester=0x7f02003b;
     }
     public static final class id {
         public static final int First=0x7f090049;

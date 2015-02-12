@@ -339,9 +339,10 @@ int drawable glogo 0x7f020034
 int drawable ic_launcher 0x7f020035
 int drawable logo2 0x7f020036
 int drawable menu 0x7f020037
-int drawable rk 0x7f020038
-int drawable startericon 0x7f020039
-int drawable tester 0x7f02003a
+int drawable metal 0x7f020038
+int drawable rk 0x7f020039
+int drawable startericon 0x7f02003a
+int drawable tester 0x7f02003b
 int id First 0x7f090049
 int id Hint 0x7f090046
 int id MainPhoto 0x7f090045

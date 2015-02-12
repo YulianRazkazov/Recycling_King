@@ -17,9 +17,9 @@
 
         <ImageButton
             android:id="@+id/None"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/ic_launcher" />
+            android:layout_width="103dp"
+            android:layout_height="70dp"
+            android:src="@drawable/metal" />
 
         <ImageButton
             android:id="@+id/Metal"
@@ -68,6 +68,6 @@
         android:layout_below="@+id/textView2"
         android:layout_marginLeft="23dp"
         android:layout_marginTop="64dp"
-        android:src="@drawable/tester" />
+        android:src="@drawable/tester"/>
 
 </RelativeLayout>
