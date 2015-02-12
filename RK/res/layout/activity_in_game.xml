@@ -61,7 +61,7 @@
         android:text="Bonus info for progress" />
 
     <ImageView
-        android:id="@+id/MainPhoto"
+        android:id="@+id/MainPicture"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/linearLayout1"

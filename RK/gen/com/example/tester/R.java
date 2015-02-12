@@ -1643,16 +1643,17 @@ containing a value of this type.
         public static final int tester=0x7f02003a;
     }
     public static final class id {
-        public static final int First=0x7f090048;
+        public static final int First=0x7f090049;
         public static final int Hint=0x7f090046;
         public static final int MainPhoto=0x7f090045;
+        public static final int MainPicture=0x7f090047;
         public static final int Metal=0x7f090041;
         public static final int None=0x7f090040;
         public static final int Paper=0x7f090043;
         public static final int Plastic=0x7f090042;
         public static final int Score=0x7f090044;
-        public static final int Second=0x7f090049;
-        public static final int Third=0x7f09004a;
+        public static final int Second=0x7f09004a;
+        public static final int Third=0x7f09004b;
         public static final int action_bar=0x7f090031;
         public static final int action_bar_activity_content=0x7f090003;
         public static final int action_bar_container=0x7f090030;
@@ -1666,7 +1667,7 @@ containing a value of this type.
         public static final int action_mode_bar=0x7f09002e;
         public static final int action_mode_bar_stub=0x7f09002d;
         public static final int action_mode_close_button=0x7f090020;
-        public static final int action_settings=0x7f09004b;
+        public static final int action_settings=0x7f09004c;
         public static final int activity_chooser_view_content=0x7f090021;
         public static final int always=0x7f090014;
         public static final int beginning=0x7f09001b;
@@ -1713,7 +1714,7 @@ containing a value of this type.
         public static final int split_action_bar=0x7f090004;
         public static final int submit_area=0x7f09003c;
         public static final int tabMode=0x7f09000c;
-        public static final int textView2=0x7f090047;
+        public static final int textView2=0x7f090048;
         public static final int title=0x7f090027;
         public static final int up=0x7f090001;
         public static final int useLogo=0x7f090013;
