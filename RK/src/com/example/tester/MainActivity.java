@@ -11,13 +11,15 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.MediaController.MediaPlayerControl;
 
 
 public class MainActivity extends ActionBarActivity {
-	Button start, highscore, about, settings,Soundoff,Soundon;
+	Button start, highscore, about, settings;
+	ImageButton Sound;
 	MediaPlayer mp;
-	
+	private int sound=1;
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -26,12 +28,12 @@ public class MainActivity extends ActionBarActivity {
         highscore = (Button)findViewById(R.id.Second);
         about =(Button)findViewById(R.id.Third);
         settings=(Button)findViewById(R.id.Settings);
-        Soundoff =(Button) findViewById(R.id.Soundoff);
-        Soundon =(Button) findViewById(R.id.Soundon);
+        Sound=(ImageButton)findViewById(R.id.soundon);
+
         
         mp = MediaPlayer.create(this,R.raw.k);
         mp.setLooping(true);
-        mp.start();
+      //  mp.start();
       
 
         start.setOnClickListener(new View.OnClickListener() {
@@ -56,21 +58,7 @@ public class MainActivity extends ActionBarActivity {
 				MainActivity.this.startActivity(myIntent);
 				}
 		});
-        
-        Soundoff.setOnClickListener(new View.OnClickListener() {
-			@Override
-			public void onClick(View v) {
-				mp.pause();
-			}		
-        });
-        
-        Soundon.setOnClickListener(new View.OnClickListener() {
-			@Override
-			public void onClick(View v) {
-		        mp.start();
-			}		
-		});
-
+        	
     }
     
     
@@ -93,5 +81,19 @@ public class MainActivity extends ActionBarActivity {
         }
         return super.onOptionsItemSelected(item);
     }
+    
+    public void soundChange(View view){
+    	if(sound==0){
+    		Sound.setBackgroundResource(R.drawable.soundoff);
+     		mp.prepareAsync();
+    		mp.start();
+    		sound = 1;
+    	}else{
+    		Sound.setBackgroundResource(R.drawable.soundon);
+    		mp.stop();
+    		sound = 0;
+    	}
+    }
+    		
+  }
    
-}
